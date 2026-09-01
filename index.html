@@ -2,74 +2,97 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>siribatho - itm1131 lesson 04</title>
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>siriba - muni university portfolio</title>
+<style>
+body{font-family:arial, sans-serif; margin:0; padding:0; background:#f4f4f4;}
+header{background:#0a3d62; color:white; text-align:center; padding:30px;}
+header img{width:150px; height:150px; border-radius:50%; border:4px solid white;}
+.container{width:90%; max-width:900px; margin:20px auto; background:white; padding:20px; border-radius:10px;}
+h2{color:#0a3d62; border-bottom:2px solid #0a3d62; padding-bottom:5px;}
+table{width:100%; border-collapse:collapse; margin:15px 0;}
+table, th, td{border:1px solid #333;}
+th, td{padding:10px; text-align:left;}
+th{background:#0a3d62; color:white;}
+ul, ol{margin:10px 0;}
+a{color:#0a3d62; text-decoration:none; font-weight:bold;}
+a:hover{color:red;}
+footer{background:#0a3d62; color:white; text-align:center; padding:10px; margin-top:20px;}
+</style>
 </head>
 <body>
+
 <header>
-<img src="profile.jpg" alt="portrait of siribatho smiling in a formal shirt" style="width:130px;height:130px;border-radius:50%;border:4px solid #58a6ff;object-fit:cover;">
+<img src="profile.jpg" alt="siribatho profile photo">
 <h1>siribatho</h1>
-<p>itm1131 student | Muni University</p>
-<nav>
-<a href="#modules">my modules</a> |
-<a href="#gallery">gallery</a> |
-<a href="https://www.vu.ac.ug" target="_blank">vu website</a>
-</nav>
+<p>muni university | bachelor of information technology | arua, uganda</p>
 </header>
 
-<section id="about">
-<h2>about me</h2>
-<p>i am an it student passionate about web development. this page is extended for lesson 04 with lists, tables, links and images.</p>
-<p><a href="#contact">jump to contact section (internal link)</a></p>
-</section>
+<div class="container">
 
-<section id="modules">
-<h2>my favorite course modules</h2>
-<table border="1" style="width:100%; border-collapse:collapse; text-align:left;">
-<thead style="background:#0d1117;color:white;">
+<h2>about me</h2>
+<p>i am a student at muni university pursuing bachelor of information technology. passionate about web application development.</p>
+
+<h2>my hobbies (unordered list)</h2>
+<ul>
+<li>web development</li>
+<li>reading technology blogs</li>
+<li>football</li>
+<li>photography</li>
+</ul>
+
+<h2>my goals (ordered list)</h2>
+<ol>
+<li>become a full stack developer</li>
+<li>master html, css, javascript</li>
+<li>build projects for local businesses in arua</li>
+<li>graduate with first class at muni university</li>
+</ol>
+
+<h2>academic modules - semester 1 (table)</h2>
+<table>
 <tr>
 <th>module code</th>
 <th>module name</th>
-<th>why i like it</th>
+<th>credit units</th>
 </tr>
-</thead>
-<tbody>
 <tr>
-<td>itm1131</td>
+<td>bit 1101</td>
+<td>introduction to it</td>
+<td>3</td>
+</tr>
+<tr>
+<td>bit 1102</td>
 <td>web application development</td>
-<td>i love building websites and seeing my code live on the internet</td>
+<td>4</td>
 </tr>
 <tr>
-<td>itm1121</td>
-<td>introduction to programming</td>
-<td>it teaches logical thinking and problem solving with code</td>
+<td>bit 1103</td>
+<td>computer hardware</td>
+<td>3</td>
 </tr>
 <tr>
-<td>itm1142</td>
-<td>database management systems</td>
-<td>it helps me understand how data is stored and organized</td>
+<td>bit 1104</td>
+<td>communication skills</td>
+<td>2</td>
 </tr>
-</tbody>
 </table>
-</section>
 
-<section id="gallery">
-<h2>gallery - two images with specific alt text</h2>
-<img src="profile.jpg" alt="portrait of siribatho smiling in a formal shirt for portfolio profile" style="width:48%; border-radius:8px; margin:1%;">
-<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400" alt="laptop showing html code on a desk with coffee" style="width:48%; border-radius:8px; margin:1%;">
-<p>above: my profile photo and a workspace setup for web development inspiration. external image source: <a href="https://unsplash.com" target="_blank">unsplash.com (external link)</a></p>
-</section>
+<h2>useful links</h2>
+<p>visit my university: <a href="https://www.muni.ac.ug" target="_blank">muni university official website</a></p>
+<p>check my github: <a href="https://github.com/siribatho" target="_blank">my github profile</a></p>
+<p>email me: <a href="mailto:siriba@muni.ac.ug">siriba@muni.ac.ug</a></p>
 
-<section id="contact">
-<h2>contact</h2>
-<p>email: siribaabdulrahuman7@gmail.com</p>
-<p>phone: +256 700 000000</p>
-<p><a href="#about">back to top - about section</a></p>
-</section>
+<h2>my gallery (images)</h2>
+<p>below is my project work:</p>
+<img src="profile.jpg" alt="my photo" width="200">
+<img src="https://www.muni.ac.ug/images/logo.png" alt="muni logo" width="200">
+
+</div>
 
 <footer>
-<p>© 2026 siribatho | lesson 04 - lists, tables, links & images</p>
+<p>&copy; 2026 siriba | muni university | assignment 04</p>
 </footer>
+
 </body>
 </html>
