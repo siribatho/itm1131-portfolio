@@ -1,0 +1,10 @@
+body{font-family:arial; margin:0; background:#f4f4f9; color:#333; line-height:1.6}
+header{background:#0d1117; color:white; text-align:center; padding:40px 20px}
+header h1{margin:0; letter-spacing:3px}
+nav{margin-top:15px}
+nav a{color:#58a6ff; margin:0 10px; text-decoration:none; font-weight:bold}
+section{background:white; margin:20px; padding:25px; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+h2{color:#0d1117; border-bottom:2px solid #58a6ff; padding-bottom:5px}
+.skills-box span{background:#e1effe; color:#0969da; padding:8px 15px; margin:5px; display:inline-block; border-radius:20px}
+.project a{background:#0969da; color:white; padding:8px 15px; text-decoration:none; border-radius:5px}
+footer{text-align:center; padding:20px; background:#0d1117; color:white; margin-top:20px} 
